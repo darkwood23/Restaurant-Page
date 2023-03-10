@@ -1,6 +1,4 @@
-function displayTitle(holder, image) {
-    const contentHolder = holder
-
+function displayTitle(contentHolder, image) {
     const header = document.createElement('div')
     const heading = document.createElement('h1')
     const img = new Image()

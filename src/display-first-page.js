@@ -9,9 +9,9 @@ function displayHome() {
     const image = chilliPic
 
     displayTitle(contentHolder, image)
-    displaySaying()
-    displayHours()
-    displayLocation()
+    displaySaying(contentHolder)
+    displayHours(contentHolder)
+    displayLocation(contentHolder)
 }
 
 export {displayHome}

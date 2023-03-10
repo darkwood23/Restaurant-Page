@@ -1,6 +1,4 @@
-function displaySaying() {
-    const contentHolder = document.getElementById('content')
-
+function displaySaying(contentHolder) {
     const saying = document.createElement('div')
     const sayer = document.createElement('h3')
     const tagLine = document.createElement('p')

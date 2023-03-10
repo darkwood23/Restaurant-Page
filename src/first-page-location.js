@@ -1,6 +1,4 @@
-function displayLocation() {
-    const contentHolder = document.getElementById('content')
-
+function displayLocation(contentHolder) {
     const locationHolder = document.createElement('div')
     const title = document.createElement('h2')
     const address = document.createElement('p')

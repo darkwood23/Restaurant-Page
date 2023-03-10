@@ -1,5 +1,4 @@
-function displayHours() {
-    const contentHolder = document.getElementById('content')
+function displayHours(contentHolder) {
     const days = [
         "Sunday",
         "Monday",
