@@ -12,10 +12,18 @@ function displayTab(contentHolder) {
     buttonOne.classList.add("home-button")
     buttonTwo.classList.add("menu-button")
     buttonThree.classList.add("contact-button")
-    
+
     buttonOne.textContent = "Home"
     buttonTwo.textContent = "Menu"
-    buttonThree.textContent = "Contact"
+    buttonThree.textContent = "Contacts"
+
+    // buttonOne.setAttribute("onclick", displayHome())
+    // buttonTwo.setAttribute("onclick", displayMenu())
+    // buttonThree.setAttribute("onclick", displayContacts())
+
+    buttonOne.addEventListener("click", displayHome)
+    buttonTwo.addEventListener("click", displayMenu)
+    buttonThree.addEventListener('click', displayContacts)
 
     tab.appendChild(buttonOne)
     tab.appendChild(buttonTwo)

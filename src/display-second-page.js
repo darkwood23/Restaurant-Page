@@ -1,7 +1,7 @@
 function displayMenu() {
-    const contentHold = document.getElementById("content")
+    const contentHold = document.getElementById("page")
 
-    contentHold.textContent = "Page two"
+    
 }
 
 export {displayMenu}

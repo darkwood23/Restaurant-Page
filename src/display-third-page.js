@@ -1,5 +1,5 @@
 function displayContacts() {
-    const content = document.getElementById("content")
+    const content = document.getElementById("page")
 
     content.textContent = "page three"
 }
