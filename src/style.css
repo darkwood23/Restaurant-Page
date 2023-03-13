@@ -101,11 +101,16 @@ body {
     border-radius: 2rem;
     background-color: green;
     padding: 0 3rem;
+    margin-top: 2rem;
 }
 
 .beverages-holder {
     padding: 2rem;
     margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .beverages-title {
@@ -114,4 +119,17 @@ body {
     background-color: green;
     text-align: center;
     width: 500px;
+}
+
+.beverages {
+    width: 500px;
+    border: 2px solid green;
+    background-color: green;
+    border-radius: 2rem;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.beverages img {
+    width: 300px;
 }
