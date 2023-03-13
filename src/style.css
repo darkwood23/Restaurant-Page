@@ -113,7 +113,7 @@ body {
     align-items: center;
 }
 
-.beverages-title {
+.items-title {
     border: 2px solid green;
     border-radius: 2rem;
     background-color: green;
@@ -121,7 +121,7 @@ body {
     width: 500px;
 }
 
-.beverages {
+.items {
     width: 500px;
     border: 2px solid green;
     background-color: green;
@@ -130,6 +130,13 @@ body {
     padding: 2rem;
 }
 
-.beverages img {
+.items img {
     width: 300px;
+}
+
+#div-sides {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

@@ -13,9 +13,9 @@ function displayBeverages(contentHold, img1, img2) {
     const spicyPalomaPrice = document.createElement("h3")
 
     divBeverages.classList.add("beverages-holder")
-    title.classList.add("beverages-title")
-    bloodyMaria.classList.add("beverages")
-    spicyPaloma.classList.add("beverages")
+    title.classList.add("items-title")
+    bloodyMaria.classList.add("items")
+    spicyPaloma.classList.add("items")
     bloodyMaria.id = "bloody-maria"
     spicyPaloma.id = "spicy-paloma"
 
