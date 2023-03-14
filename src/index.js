@@ -8,3 +8,5 @@ const tabHolder = document.getElementById("content")
 
 displayTab(tabHolder)
 displayHome()
+displayMenu()
+displayContacts()
