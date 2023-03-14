@@ -19,6 +19,9 @@ function displayBeverages(contentHold, img1, img2) {
     bloodyMaria.id = "bloody-maria"
     spicyPaloma.id = "spicy-paloma"
 
+    spicyPalomaName.classList.add("titles")
+    bloodyMariaName.classList.add("titles")
+
     title.textContent = "Beverages"
     spicyPalomaName.textContent = "Spicy Paloma"
     bloodyMariaName.textContent = "Bloody Maria"

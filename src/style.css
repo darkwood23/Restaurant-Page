@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -6,6 +8,7 @@
 
 body {
     background-color: black;
+    font-family: 'Oswald', sans-serif;
     font-size: 2rem;
 }
 
@@ -139,4 +142,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#div-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titles {
+    border-bottom: 2px solid white;
 }

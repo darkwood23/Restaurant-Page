@@ -1,11 +1,16 @@
 import { displayTitleSecond } from "./second-page/second-page-title"
 import { displayBeverages } from "./second-page/second-page-beverages"
 import { displaySides } from "./second-page/second-page-sides"
+import { displayMain } from "./second-page/second-page-main"
 import bloodyMaria from '/home/anonymous/repos/Restaurant-Page/src/second-page/images/Bloody-Maria.jpeg'
 import spicyPaloma from "/home/anonymous/repos/Restaurant-Page/src/second-page/images/SpicyPaloma.jpeg"
 import chickenNuggets from "/home/anonymous/repos/Restaurant-Page/src/second-page/images/chicken-nuggets.jpg"
 import cornKabobs from "/home/anonymous/repos/Restaurant-Page/src/second-page/images/corn-kabobs.jpg"
 import nachos from "/home/anonymous/repos/Restaurant-Page/src/second-page/images/nachos.jpg"
+import Spicycauliflower from "/home/anonymous/repos/Restaurant-Page/src/second-page/images/cauliflower.jpeg"
+import Spicymushroom from "/home/anonymous/repos/Restaurant-Page/src/second-page/images/mushroom.jpeg"
+import SpicyPotato from "/home/anonymous/repos/Restaurant-Page/src/second-page/images/potato.jpeg"
+import SpicySkewers from "/home/anonymous/repos/Restaurant-Page/src/second-page/images/skewers.jpeg"
 
 function displayMenu() {
     const contentHold = document.getElementById("page")
@@ -17,6 +22,10 @@ function displayMenu() {
     const chicken = chickenNuggets
     const corn = cornKabobs
     const nac = nachos
+    const cauli = Spicycauliflower
+    const mushroom = Spicymushroom
+    const potato = SpicyPotato
+    const skewers = SpicySkewers
 
     homeButton.style = ""
     contactButton.style = ""
@@ -26,6 +35,7 @@ function displayMenu() {
     displayTitleSecond(contentHold)
     displayBeverages(contentHold, img1, img2)
     displaySides(contentHold, corn, nac, chicken)
+    displayMain(contentHold, mushroom, cauli, potato, skewers)
 }
 
 export {displayMenu}

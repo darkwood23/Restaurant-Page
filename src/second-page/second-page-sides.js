@@ -26,6 +26,10 @@ function displaySides(contentHold, img1, img2, img3) {
     chickenNuggets.classList.add("items")
     divSidesTitle.classList.add("items-title")
 
+    cornKabobsName.classList.add("titles")
+    chickenNuggetsName.classList.add("titles")
+    nachoBakeName.classList.add("titles")
+
     divSidesTitle.textContent = "Sides"
     cornKabobsName.textContent = "Spicy Corn Kabobs"
     nachoBakeName.textContent = "Spicy Nacho Bake"
