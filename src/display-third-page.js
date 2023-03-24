@@ -1,4 +1,4 @@
-import gordonImage from "/home/anonymous/repos/Restaurant-Page/src/gordon.jpg"
+import gordonImage from "../src/gordon.jpg"
 
 function displayContacts() {
     const contentHold = document.getElementById("page")
